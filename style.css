@@ -1,0 +1,58 @@
+/* !text red  */
+.text-red{
+    color: brown;
+}
+/* !text red  */
+
+/* -----------------------------  SECTION REUSABLE BLOCK ----------------------------- */
+.button{
+    border-radius: 22px;
+    padding: 14px 36px;
+    font-size: 14px;
+    text-decoration:none;
+    border: none;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.button--red{
+background: brown;
+color:white;
+
+
+}
+.button:hover{
+    text-emphasis: 
+    ;
+}
+.button--transparent{
+background:transparent;
+border: 1px solid gray;
+color: #fff;
+}
+
+.button--transparent:hover{
+background: #fff;
+border: none;
+color: #000;
+}
+.link:hover{
+    text-decoration: none;
+
+}
+
+/* -----------------------------!SECTION REUSABLE BLOCK ----------------------------- */
+
+/* ------------------------------ SECTION HERO ------------------------------ */
+.section-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ) , url(./img/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 75vh;
+}
+
+
+
+/* ------------------------------ !SECTION HERO ------------------------------ */
